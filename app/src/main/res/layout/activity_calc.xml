@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.pratezina.zeljko.coolcalc.CalcActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="382dp"
+        android:layout_height="495dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@android:color/holo_green_light"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111">
+
+            <EditText
+                android:id="@+id/resultsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="50dp"
+                android:stateListAnimator="@null"
+                android:text="567"
+                android:textSize="45dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="7"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="8"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="9"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/divideBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:src="@drawable/divide"
+                android:stateListAnimator="@null"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="-16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <Button
+                android:id="@+id/fourBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/fiveBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="5"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/sixBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="6"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/multiplyBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:src="@drawable/multiply"
+                android:stateListAnimator="@null" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <Button
+                android:id="@+id/oneBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/twoBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/threeBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/subtractBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:src="@drawable/subtract"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/clearBtn"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_light"
+                    android:gravity="center"
+                    android:scrollHorizontally="true"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:stateListAnimator="@null"
+                    android:text="Clear"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/zerroBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/addBtn"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:background="#ffffff"
+                android:src="@drawable/add"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/calcBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="false"
+        android:contextClickable="true"
+        android:cropToPadding="false"
+        android:hapticFeedbackEnabled="false"
+        android:isScrollContainer="false"
+        android:keepScreenOn="false"
+        android:labelFor="@+id/clearBtn"
+        android:layoutDirection="locale"
+        android:longClickable="false"
+        android:nestedScrollingEnabled="false"
+        android:src="@drawable/equal"
+        android:stateListAnimator="@null"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <RelativeLayout
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
